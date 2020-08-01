@@ -1,5 +1,12 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import Http404
 
-# Create your views here.
+from .models import Machine
 
+
+def home(request):
+    try:
+        machines = Machine.objects.all()
+    except Machine.DoesNotExist:
+        raise Http404('Machines not found')
+    return render(request, 'home.html', {'machines': machines, })
