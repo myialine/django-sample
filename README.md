@@ -11,10 +11,17 @@
 
 - [x] Start scaffolding
 - [ ] Design the HTML
-  - [ ] Define elements
-  - [ ] Create elements
+  - [x] Define elements
+  - [x] Create elements
+  - [ ] Refactor
 - [ ] Design the CSS
-  - [ ] Define pallete
-  - [ ] Create CSS
-  - [ ] Modify icons
+  - [x] Define pallete
+  - [x] Create CSS
+  - [x] Modify icons
+  - [ ] Refactor
 - [ ] Implement the responsiveness (CSS/Javascript)
+  - [ ] CSS responsiveness
+    - [ ] Implement Mobile media
+  - [ ] Javascript responsiveness
+    - [ ] Button Toggles
+    - [ ] State Management

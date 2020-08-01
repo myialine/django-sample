@@ -1,0 +1,41 @@
+html{
+  height: 100%;
+}
+body{
+  position: relative;
+  min-height: 100%;
+}
+.container{
+  font-family: 'Changa One', cursive;
+}
+.navbar{
+  height: 100vh;
+}
+.right-column{
+  float: right;
+}
+.left-column{
+ float: left;
+}
+.center-content{
+  font-family: Helvetica;
+  height: 100vh;
+}
+#cards-container{
+  padding-top: 1%;
+  font-family: inherit;
+}
+.card-deck{
+  width: 49vw;
+  height: 48vh;
+}
+#row1.card-deck{
+  padding-top: 10px;
+}
+.btn-dark:hover,
+.btn-dark:active,
+.btn-dark:focus,
+.btn-dark.active{
+  color: red !important;
+  border-color: red !important;
+}
