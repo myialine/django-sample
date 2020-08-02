@@ -35,6 +35,9 @@ body {
 .row {
 	margin-top: 10px;
 }
+.img {
+	object-fit: scale-down;
+}
 
 .btn-dark:hover,
 .btn-dark:active,
