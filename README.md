@@ -10,18 +10,18 @@
 #### TODO:
 
 - [x] Start scaffolding
-- [ ] Design the HTML
+- [x] Design the HTML
   - [x] Define elements
   - [x] Create elements
-  - [ ] Refactor
-- [ ] Design the CSS
+  - [x] Refactor
+- [x] Design the CSS
   - [x] Define pallete
   - [x] Create CSS
   - [x] Modify icons
-  - [ ] Refactor
+  - [x] Refactor
 - [ ] Implement the responsiveness (CSS/Javascript)
-  - [ ] CSS responsiveness
-    - [ ] Implement Mobile media
+  - [x] CSS responsiveness
+    - [ ] Implement Mobile media queries
   - [ ] Javascript responsiveness
     - [ ] Button Toggles
     - [ ] State Management
