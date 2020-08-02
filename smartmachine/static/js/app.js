@@ -2,11 +2,13 @@
 
 $("#tab-left a").on("click", function (e) {
 	e.preventDefault();
+	$("#cards-container").style.display = "none";
 	$(this).tab("show");
 });
 
 $("#tab-right a").on("click", function (e) {
 	e.preventDefault();
+	$("#cards-container").style.display = "none";
 	$(this).tab("show");
 });
 
