@@ -1,4 +1,5 @@
 {% extends 'base.html' %} {% block body %}
+
 <div class="container bg-dark">
 	<!--   LEFT SIDEBAR WITH NUMBERS   -->
 	<div class="sidebar-l">
@@ -155,5 +156,49 @@
 			</div>
 		</div>
 	</div>
+	<!--   LEFT TAB PANES - CONTENTS	-->
+	<div class="tab-content">
+		<div
+			class="tab-pane active"
+			id="panel1"
+			role="tabpanel"
+			aria-labelledby="nav-1-tab"
+		>
+			{% load static %}
+			<img src="{% static 'img/placeholder.png' %}" alt="placeholder image" />
+			<h6>Tab 01</h6>
+		</div>
+		<div
+			class="tab-pane"
+			id="panel2"
+			role="tabpanel"
+			aria-labelledby="nav-2-tab"
+		>
+			{% load static %}
+			<img src="{% static 'img/placeholder.png' %}" alt="placeholder image" />
+			<h6>Tab 02</h6>
+		</div>
+		<div
+			class="tab-pane"
+			id="panel3"
+			role="tabpanel"
+			aria-labelledby="nav-3-tab"
+		>
+			{% load static %}
+			<img src="{% static 'img/placeholder.png' %}" alt="placeholder image" />
+			<h6>Tab 03</h6>
+		</div>
+		<div
+			class="tab-pane"
+			id="panel4"
+			role="tabpanel"
+			aria-labelledby="nav-4-tab"
+		>
+			{% load static %}
+			<img src="{% static 'img/placeholder.png' %}" alt="placeholder image" />
+			<h6>Tab 04</h6>
+		</div>
+	</div>
+	<!--	RIGHT TAB PANES - CONTENTS		-->
 </div>
 {% endblock %}
