@@ -2,10 +2,7 @@
 
 ### This is a sample for Smartmachine
 
-#### Libraries:
-
-- django
-- django-boostrap4
+#### Status: Imcomplete
 
 #### TODO:
 
