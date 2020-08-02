@@ -2,100 +2,154 @@
 <div class="container bg-dark">
 	<!--   LEFT SIDEBAR WITH NUMBERS   -->
 	<div class="sidebar-l">
-		<nav class="navbar bg-dark">
-			<ul class="navbar-nav flex-column">
-				<li class="nav-item">
-					<a class="nav-link">
-						<button type="button" class="btn btn-dark btn-lg mb-3">
-							01
-						</button></a
-					>
-					<a class="nav-link">
-						<button type="button" class="btn btn-dark btn-lg mb-3">
-							02
-						</button></a
-					>
-					<a class="nav-link">
-						<button type="button" class="btn btn-dark btn-lg mb-3">
-							03
-						</button></a
-					>
-					<a class="nav-link">
-						<button type="button" class="btn btn-dark btn-lg mb-3">
-							04
-						</button></a
-					>
-					<a class="nav-link">
-						<button type="button" class="btn btn-dark btn-lg mb-3">
-							Clear
-						</button></a
-					>
-				</li>
-			</ul>
+		<nav
+			class="nav flex-column nav-pills nav-fill bg-dark"
+			id="nav-pills-tab"
+			role="tablist"
+			aria-orientation="vertical"
+		>
+			<a
+				class="nav-item nav-link bg-dark text-white mb-1 mt-1 active"
+				id="nav-1-tab"
+				data-toggle="tab"
+				href="#nav-1"
+				role="tab"
+				aria-controls="nav-1"
+				aria-selected="true"
+			>
+				01
+			</a>
+			<a
+				class="nav-item nav-link bg-dark text-white mb-1 mt-1"
+				id="nav-2-tab"
+				data-toggle="tab"
+				href="#nav-2"
+				role="tab"
+				aria-controls="nav-2"
+				aria-selected="false"
+			>
+				02
+			</a>
+			<a
+				class="nav-item nav-link bg-dark text-white mb-1 mt-1"
+				id="nav-3-tab"
+				data-toggle="tab"
+				href="#nav-3"
+				role="tab"
+				aria-controls="nav-2"
+				aria-selected="false"
+			>
+				03
+			</a>
+			<a
+				class="nav-item nav-link bg-dark text-white mb-1 mt-1"
+				id="nav-4-tab"
+				data-toggle="tab"
+				href="#nav-4"
+				role="tab"
+				aria-controls="nav-4"
+				aria-selected="false"
+			>
+				04
+			</a>
+			<a
+				class="nav-item nav-link bg-dark text-white"
+				id="nav-4-tab"
+				aria-controls="nav-4"
+			>
+				<button type="button" class="btn btn-dark">Clear</button>
+			</a>
 		</nav>
 	</div>
 	<!--   RIGHT SIDEBAR WITH ICONS   -->
 	<div class="sidebar-r">
-		<nav class="navbar bg-dark">
-			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link"
-						><button type="button" class="btn btn-dark btn-lg">
-							<i class="material-icons">dashboard</i>
-						</button></a
-					>
-					<a class="nav-link"
-						><button type="button" class="btn btn-dark btn-lg">
-							<i class="material-icons">map</i>
-						</button></a
-					>
-					<a class="nav-link"
-						><button type="button" class="btn btn-dark btn-lg">
-							<i class="material-icons">videocam</i>
-						</button></a
-					>
-					<a class="nav-link"
-						><button type="button" class="btn btn-dark btn-lg">
-							<i class="material-icons">show_chart</i>
-						</button></a
-					>
-					<a class="nav-link"
-						><button type="button" class="btn btn-dark btn-lg">
-							<i class="material-icons">videogame_asset</i>
-						</button></a
-					>
-				</li>
-			</ul>
+		<nav
+			class="nav flex-column nav-pills nav-fill bg-dark"
+			id="nav-pills-tab"
+			role="tablist"
+			aria-orientation="vertical"
+		>
+			<a
+				class="nav-item nav-link bg-dark text-white mb-1 mt-1 active"
+				id="nav-dashboard-tab"
+				data-toggle="tab"
+				href="#nav-dashboard"
+				role="tab"
+				aria-controls="nav-dashboard"
+				aria-selected="true"
+			>
+				<i class="material-icons">dashboard</i>
+			</a>
+			<a
+				class="nav-item nav-link bg-dark mb-1 mt-1 text-white"
+				id="nav-map-tab"
+				data-toggle="tab"
+				href="#nav-map"
+				role="tab"
+				aria-controls="nav-map"
+				aria-selected="false"
+			>
+				<i class="material-icons">map</i>
+			</a>
+			<a
+				class="nav-item nav-link bg-dark mb-1 mt-1 text-white"
+				id="nav-video-tab"
+				data-toggle="tab"
+				href="#nav-video"
+				role="tab"
+				aria-controls="nav-video"
+				aria-selected="false"
+			>
+				<i class="material-icons">videocam</i>
+			</a>
+			<a
+				class="nav-item nav-link bg-dark mb-1 mt-1 text-white"
+				id="nav-data-tab"
+				data-toggle="tab"
+				href="#nav-data"
+				role="tab"
+				aria-controls="nav-data"
+				aria-selected="false"
+			>
+				<i class="material-icons">show_chart</i>
+			</a>
+			<a
+				class="nav-item nav-link bg-dark mb-1 mt-1 text-white"
+				id="nav-control-tab"
+				data-toggle="tab"
+				href="#nav-control"
+				role="tab"
+				aria-controls="nav-control"
+				aria-selected="false"
+			>
+				<i class="material-icons">videogame_asset</i>
+			</a>
 		</nav>
 	</div>
 	<!--   CARDS ON THE CENTER   -->
 	<div class="center-content">
-		<div class="container" id="cards-container">
+		<div class="container-fluid bg-dark text-white" id="cards-container">
 			<div class="row">
-				<div class="card-deck">
-					<div class="card border-white text-white bg-dark mb-3">
-						<div class="card-body">
-							This is one card
-						</div>
+				<div class="col d-flex">
+					<div class="card card-body flex-fill mb-1" id="card-1">
+						<h1>This is card 1</h1>
 					</div>
-					<div class="card border-white text-white bg-dark mb-3">
-						<div class="card-body">
-							This is another card
-						</div>
+				</div>
+				<div class="col d-flex">
+					<div class="card card-body flex-fill mb-1" id="card-2">
+						<h1>This is card 2</h1>
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="card-deck">
-					<div class="card border-white text-white bg-dark">
-						<div class="card-body">
-							This is some other card
-						</div>
+				<div class="col d-flex">
+					<div class="card card-body flex-fill mb-1" id="card-3">
+						<h1>This is card 3</h1>
 					</div>
-					<div class="card border-white text-white bg-dark">
-						<div class="card-body">
-							This is yet another card
-						</div>
+				</div>
+				<div class="col d-flex">
+					<div class="card card-body flex-fill mb-1" id="card-4">
+						<h1>This is card 4</h1>
 					</div>
 				</div>
 			</div>
