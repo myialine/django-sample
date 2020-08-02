@@ -1,41 +1,55 @@
-html{
-  height: 100%;
+/* Media info 705x447px*/
+@viewport {
+	min-width: 705px;
 }
-body{
-  position: relative;
-  min-height: 100%;
+html {
+	height: 100%;
+	width: 100%;
 }
-.container{
-  font-family: 'Changa One', cursive;
+body {
+	position: relative;
 }
-.navbar{
-  height: 100vh;
+.container {
+	font-family: "Changa One", cursive;
 }
-.right-column{
-  float: right;
+.sidebar-r {
+	float: right;
+	height: 100vh;
 }
-.left-column{
- float: left;
+.sidebar-l {
+	float: left;
+	height: 100vh;
 }
-.center-content{
-  font-family: Helvetica;
-  height: 100vh;
+.center-content {
+	font-family: Helvetica;
+	height: 100vh;
 }
-#cards-container{
-  padding-top: 1%;
-  font-family: inherit;
+#cards-container {
+	padding-top: 1%;
+	font-family: inherit;
 }
-.card-deck{
-  width: 49vw;
-  height: 48vh;
+.card.card-body {
+	background-color: inherit;
+	border-color: white;
 }
-#row1.card-deck{
-  padding-top: 10px;
+.row {
+	margin-top: 10px;
 }
+
 .btn-dark:hover,
 .btn-dark:active,
 .btn-dark:focus,
-.btn-dark.active{
-  color: red !important;
-  border-color: red !important;
+.nav-item.nav-link.active i,
+.nav-item.nav-link.active,
+.btn-dark.active {
+	color: red !important;
+}
+a.nav-item.nav-link i,
+a.nav-item.nav-link {
+	font-size: 40px !important;
+}
+@media screen and (max-width: 600px) {
+	.row {
+		display: none;
+	}
 }
