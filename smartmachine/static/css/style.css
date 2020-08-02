@@ -1,41 +1,45 @@
-html{
-  height: 100%;
+/* Media info 705x447px*/
+@viewport {
+	width: auto;
 }
-body{
-  position: relative;
-  min-height: 100%;
+
+html {
+	height: 100%;
 }
-.container{
-  font-family: 'Changa One', cursive;
+body {
+	position: relative;
 }
-.navbar{
-  height: 100vh;
+.container {
+	font-family: "Changa One", cursive;
 }
-.right-column{
-  float: right;
+.navbar {
+	height: 100vh;
 }
-.left-column{
- float: left;
+.sidebar-r {
+	float: right;
 }
-.center-content{
-  font-family: Helvetica;
-  height: 100vh;
+.sidebar-l {
+	float: left;
 }
-#cards-container{
-  padding-top: 1%;
-  font-family: inherit;
+.center-content {
+	font-family: Helvetica;
+	height: 100vh;
 }
-.card-deck{
-  width: 49vw;
-  height: 48vh;
+#cards-container {
+	padding-top: 1%;
+	font-family: inherit;
 }
-#row1.card-deck{
-  padding-top: 10px;
+.card-deck {
+	width: 49vw;
+	height: 48vh;
+}
+#row1.card-deck {
+	padding-top: 10px;
 }
 .btn-dark:hover,
 .btn-dark:active,
 .btn-dark:focus,
-.btn-dark.active{
-  color: red !important;
-  border-color: red !important;
+.btn-dark.active {
+	color: red !important;
+	border-color: red !important;
 }
