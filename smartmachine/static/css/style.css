@@ -1,10 +1,18 @@
 /* Media info 705x447px*/
 @viewport {
+<<<<<<< HEAD
 	width: auto;
 }
 
 html {
 	height: 100%;
+=======
+	min-width: 705px;
+}
+html {
+	height: 100%;
+	width: 100%;
+>>>>>>> 5854429239ec6b07830e9aa5453da9221c16782c
 }
 body {
 	position: relative;
@@ -12,6 +20,7 @@ body {
 .container {
 	font-family: "Changa One", cursive;
 }
+<<<<<<< HEAD
 .navbar {
 	height: 100vh;
 }
@@ -35,11 +44,52 @@ body {
 }
 #row1.card-deck {
 	padding-top: 10px;
+=======
+.sidebar-r {
+	float: right;
+	height: 100vh;
 }
+.sidebar-l {
+	float: left;
+	height: 100vh;
+}
+.center-content {
+	font-family: Helvetica;
+	height: 100vh;
+}
+#cards-container {
+	padding-top: 1%;
+	font-family: inherit;
+}
+.card.card-body {
+	background-color: inherit;
+	border-color: white;
+}
+.row {
+	margin-top: 10px;
+>>>>>>> 5854429239ec6b07830e9aa5453da9221c16782c
+}
+
 .btn-dark:hover,
 .btn-dark:active,
 .btn-dark:focus,
+<<<<<<< HEAD
 .btn-dark.active {
 	color: red !important;
 	border-color: red !important;
+=======
+.nav-item.nav-link.active i,
+.nav-item.nav-link.active,
+.btn-dark.active {
+	color: red !important;
+}
+a.nav-item.nav-link i,
+a.nav-item.nav-link {
+	font-size: 40px !important;
+}
+@media screen and (max-width: 600px) {
+	.row {
+		display: none;
+	}
+>>>>>>> 5854429239ec6b07830e9aa5453da9221c16782c
 }
